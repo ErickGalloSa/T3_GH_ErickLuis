@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "LibrosArqSw";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container pt-3">
+    <h1 class="text-primary">Libros de Arquitectura de Software</h1>
+
+    <div class="libro">
+        <h2>Arquitectura Limpia: Guía para especialistas en la estructura y el diseño de software</h2>
+        <div>
+            <img src="@Url.Content("~/img/ArqLim.webp")" alt="" width="279" height="360">
+        </div>
+        <p>
+            <strong>Autor:</strong> Robert C. Martin
+        </p>
+        <p>
+            <strong>Descripción:</strong> Este libro es un clásico de la arquitectura de
+            software y una lectura obligada para cualquier desarrollador o arquitecto de
+            software. Martin presenta los principios de la arquitectura limpia, un enfoque
+            para diseñar software que sea flexible, mantenible y extensible. El libro está
+            lleno de consejos prácticos y ejemplos que lo convierten en un recurso valioso
+            para cualquier persona que quiera mejorar sus habilidades de diseño de software.
+        </p>
+    </div>
+
+    <div class="libro">
+        <h2>Introducción a la arquitectura de software: Un enfoque práctico</h2>
+        <div>
+            <img src="@Url.Content("~/img/IntArq.jpg")" alt="" width="279" height="360">
+        </div>
+        <p>
+            <strong>Autor:</strong> Oscar Javier Blancarte Iturralde
+        </p>
+        <p>
+            <strong>Descripción:</strong> Este libro ofrece una introducción completa 
+            a la arquitectura del software, desde los conceptos básicos hasta las prácticas 
+            más avanzadas. Cubre una amplia gama de temas, como el ciclo de vida de la 
+            arquitectura, los atributos de calidad del software, los estilos arquitectónicos 
+            y los patrones de diseño. El libro está escrito de manera clara y concisa, 
+            y está lleno de ejemplos prácticos que lo convierten en una valiosa referencia 
+            para cualquier desarrollador o arquitecto de software que quiera aprender 
+            más sobre el campo.
+        </p>
+    </div>
+
+    <div class="libro">
+        <h2>Arquitecturas de Software Basadas en Componentes</h2>
+        <div>
+            <img src="@Url.Content("~/img/ArqSw.png")" alt="" width="279" height="360">
+        </div>
+        <p>
+            <strong>Autor:</strong> Graciela Gonzáles
+        </p>
+        <p>
+            <strong>Descripción:</strong> Este libro presenta una introducción a las 
+            arquitecturas de software basadas en componentes, un enfoque para el diseño 
+            de software que se basa en la reutilización de componentes. Los autores describen 
+            los principios y prácticas de las arquitecturas basadas en componentes, y proporcionan 
+            consejos sobre cómo diseñar, implementar y administrar aplicaciones basadas en 
+            componentes. El libro es una valiosa referencia para cualquier arquitecto de software 
+            que quiera aprender más sobre este enfoque de diseño.
+        </p>
+    </div>
+</div>
+
+<style>
+    .libro {
+        margin-bottom: 20px;
+    }
+
+    .libro h2 {
+        color: #007bff;
+    }
+
+    .libro p {
+        font-size: 1.1em;
+    }
+</style>
+
