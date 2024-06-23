@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewData["Title"] = "LibrosDisSw";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container pt-3">
+    <h1 class="text-primary">Libros de Diseño de Software</h1>
+
+    <div class="libro">
+        <h2>Patrones de Diseño.</h2>
+        <div>
+            <img src="@Url.Content("~/img/patdis.jpg")" alt="" width="279" height="360">
+        </div>
+        <p>
+            <strong>Autores:</strong> Erich Gamma John Vlissides, Ralph Johnson & Richard Helm
+        </p>
+        <p>
+            <strong>Descripción:</strong>  Este libro clásico presenta 23 patrones de diseño 
+            que resuelven problemas comunes de diseño de software en sistemas orientados a 
+            objetos. Los patrones se describen en detalle, con ejemplos y diagramas que ayudan 
+            a comprender su funcionamiento.
+        </p>
+    </div>
+
+    <div class="libro">
+        <h2>Diseño basado en dominios: abordando la complejidad en el corazón del software</h2>
+        <div>
+            <img src="@Url.Content("~/img/DomDIs.jpg")" alt="" width="279" height="360">
+        </div>
+        <p>
+            <strong>Autor:</strong> Oscar Javier Blancarte Iturralde
+        </p>
+        <p>
+            <strong>Descripción:</strong> El diseño basado en dominios (DDD) es un enfoque 
+            para modelar software que se centra en el dominio del problema que se está 
+            resolviendo. Este libro presenta los principios y prácticas de DDD, y muestra 
+            cómo se puede aplicar para crear software complejo y mantenible.
+        </p>
+    </div>
+
+    <div class="libro">
+        <h2>Programación extrema: una guía para la mejora continua de software</h2>
+        <div>
+            <img src="@Url.Content("~/img/PlanExt.jpg")" alt="" width="279" height="360">
+        </div>
+        <p>
+            <strong>Autor:</strong> Kent Beck & Martin Fowler
+        </p>
+        <p>
+            <strong>Descripción:</strong> Este libro presenta la metodología de programación 
+            extrema (XP), un enfoque de desarrollo de software ágil que se centra en la 
+            comunicación, la colaboración y la retroalimentación continua.
+        </p>
+    </div>
+</div>
+
+<style>
+    .libro {
+        margin-bottom: 20px;
+    }
+
+        .libro h2 {
+            color: #007bff;
+        }
+
+        .libro p {
+            font-size: 1.1em;
+        }
+</style>
+
+
+
